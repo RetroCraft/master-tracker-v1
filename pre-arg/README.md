@@ -4,13 +4,7 @@ This section contains all clues from **before 11/01** when the "gates" were offi
 
 _Note that some leads that should be numbered with D.G are numbered with D.E since we did not yet know the significance of thetheoristgateway.com. This "gate" began with the release of D.Y0, the What is MatPat HIDING? video._
 
-{% tabs %}
-{% tab title="Closed Leads" %}
-#### Digital
+{% page-ref page="digital/" %}
 
-{% page-ref page="digital/d.y0-what-is-matpat-hiding.md" %}
-
-{% page-ref page="digital/d.y1-tenretni-olleh.md" %}
-{% endtab %}
-{% endtabs %}
+{% page-ref page="real-world/" %}
 

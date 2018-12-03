@@ -6,9 +6,9 @@ The channel has an [icon](https://yt3.ggpht.com/a-/AN66SAxXYmYdLQ3rKLrC9Z5-CFarj
 
 ![](https://lh5.googleusercontent.com/oE2181c-gEyOVbnNkJp0c4_-iUiWeotKjTvnEx1sN9nAK388G7xtvRUF2i1WGyDz-3zlb2rsBcytcSyNKrb7Nb-C3-QGA2hJkDLjvvunkr0xyag-vaXLJSEqFRzzdbrfQ6jVVIHh)
 
-The text in the logo was interpreted as "HuW ppX qNz mod" and used to unlock [D.E1](https://docs.google.com/document/d/1ODR4aT7x6KT9xr-D9lMoXox9_3Xt86UINMvnhyQJh9o/edit#heading=h.8wa777rdywjp).
+The text in the logo was interpreted as "HuW ppX qNz mod" and used to unlock [D.E1](d.e1-notthefirst.md).
 
-"Patience is the key" may refer to the waiting game set out in [D.E0](https://docs.google.com/document/d/1ODR4aT7x6KT9xr-D9lMoXox9_3Xt86UINMvnhyQJh9o/edit#heading=h.s955enxi1ysf), but may also be the literal key to a future cipher.
+"Patience is the key" may refer to the waiting game set out in [D.E0](d.e0-theorist-gateway.md), but may also be the literal key to a future cipher.
 
 As of 09/29, the banner has been edited to be black with green text “hello theorists, have you come to play?” Analysis of the image reveals the word patience hidden in the bottom-left corner.
 
