@@ -1,4 +1,4 @@
-# Final Words
+# Useful Resources
 
 Here's a few resources to help understand ARGs. If you are new to ARGs or puzzle-solving in general, please consult the Game Detectives Academy here for some basic puzzle-solving tools. Good luck.
 

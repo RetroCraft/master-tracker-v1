@@ -27,5 +27,5 @@
   * [Digital](gate-1/digital/README.md)
     * [D.G1: alaska](gate-1/digital/d.g1-alaska.md)
 * [Gate 2](gate-2.md)
-* [Final Words](final-words.md)
+* [Useful Resources](final-words.md)
 
