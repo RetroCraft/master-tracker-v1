@@ -1,7 +1,3 @@
----
-description: a.k.a. Gate 0
----
-
 # Gateway
 
 This section contains all clues originating or pertaining to the **Theorist Gateway website**, as introduced in [pre:D.E0](../pre-arg/digital/d.e0-theorist-gateway.md). As the gateway is constantly updating, these leads are considered **permanently open**.
