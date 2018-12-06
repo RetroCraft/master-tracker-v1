@@ -30,6 +30,6 @@
 * [Gate 2](gate-2.md)
   * [Keys](gate-2/keys.md)
   * [Digital](gate-2/digital/README.md)
-  * [Real World](gate-2/real-world/README.md]
+  * [Real World](gate-2/real-world/README.md)
 * [Useful Resources](useful-resources.md)
 
