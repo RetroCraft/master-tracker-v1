@@ -27,9 +27,10 @@
   * [Digital](gate-1/digital/README.md)
     * [D.G1: alaska](gate-1/digital/d.g1-alaska.md)
     * [D.Y1: This is NOT Your Story!](gate-1/digital/d.y1-this-is-not-your-story.md)
-* [Gate 2](gate-2.md)
+* [Gate 2](gate-2/README.md)
   * [Keys](gate-2/keys.md)
   * [Digital](gate-2/digital/README.md)
+    * [D.G2: Gateway Artwork](gate-2/digital/d.y2-artwork.md)
   * [Real World](gate-2/real-world/README.md)
 * [Useful Resources](useful-resources.md)
 
