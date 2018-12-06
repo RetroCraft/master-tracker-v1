@@ -30,6 +30,7 @@
 * [Gate 2](gate-2/README.md)
   * [Keys](gate-2/keys.md)
   * [Digital](gate-2/digital/README.md)
+    * [D.G2: Artwork Update](gate-2/digital/d.g2-gatewayartwork.md)
   * [Real World](gate-2/real-world/README.md)
 * [Useful Resources](useful-resources.md)
 
