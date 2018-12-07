@@ -1,0 +1,61 @@
+// compile
+@import '_template';
+
+
+.main{
+  background: $clouds;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+}
+
+.sidebar {
+  box-shadow: $shadow-4;
+  background: $aggieblue-dark;
+  padding: 1rem;
+  z-index: 3;
+  display: flex;
+
+  .menu {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-list {
+    flex-grow: 1;
+  }
+
+  .bottom-options li a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  li a{
+    color: $clouds;
+  }
+  .menu-list .is-active{
+    background: $white;
+    color: $aggieblue-dark;
+
+    li, a {
+      color: inherit;
+    }
+  }
+}
+
+.content-card {
+  background: $white;
+
+  .header {
+    background: $white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    background: $white;
+  }
+}

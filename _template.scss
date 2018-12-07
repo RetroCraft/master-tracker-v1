@@ -1,0 +1,167 @@
+$do: 'not compile';
+//default font ( sans-serif )
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+//fancy thick display font ( cursive )
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+//fancy thin cursive font ( cursive )
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+//monospace font ( monospace )
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+// wireframe mockup font ( blocks, monospace )
+// @import url("https://gitcdn.xyz/repo/octoshrimpy/blokkfont/master/blokkfont.css");
+
+//importing blokk for development
+@import url("https://rawgit.com/octoshrimpy/blokkfont/master/blokkfont.css");
+
+//last `fa fa-icon` version of fontawesome
+// @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+//latest version of FA. it uses `fa, far, fab, fas, fal` for different styling, also redid ~100 icon names.
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css");
+
+
+//basic colors
+$white: #fff;
+$black: #000;
+
+// flatUI colors
+$midnight:    #2c3e50;
+$asphalt:     #34495e;
+$bulma-black: #4a4a4a;
+$asbestos:    #7f8c8d;
+$concrete:    #95a5a6;
+$silver:      #bdc3c7;
+$clouds:      #ecf0f1;
+$emerald:     #2ecc71;
+$nephritis:   #27ae60;
+$turquoise:   #1abc9c;
+$greensea:    #16a085;
+$amethyst:    #9b59b6;
+$wisteria:    #8e44ad;
+$sunflower:   #f1c40f;
+$orange:      #f39c12;
+$carrot:      #e67e22;
+$pumpkin:     #d35400;
+$alizarin:    #e74c3c;
+$pomegranate: #c0392b;
+$river:       #3498db;
+$belize:      #2980b9;
+
+// aggie colors
+$aggieblue:        #036;
+$aggiesilver:      #a4aeb5;
+$aggieblue-dark:   #0f2439;
+$aggieblue-faded:  #2e4676;
+$aggieblue-light:  #2472b5;
+
+//bulma overrides
+$primary:             $aggieblue-dark;
+$primary-faded:       $aggieblue-faded;
+$primary-transparent: transparentize($primary, .9);
+
+//MDL box-shadows
+$shadow-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+$shadow-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$shadow-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+$shadow-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+$shadow-border: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+//testing color
+$test-color: transparentize($wisteria, .9);
+
+@mixin sticky {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+//@include animate; anywhere for animation
+@mixin animate {
+  transition: all 0.15s ease-in-out;
+}
+
+@mixin custom-scroll($hover:false) {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(255,255,255,.05);
+    border-radius: 0 0 2px;
+  }
+
+  @if $hover == on-hover {
+    @include animate;
+    &:hover::-webkit-scrollbar-thumb {
+      border-radius: 2px;
+      background-color: rgba(0,0,0,.25);
+      margin-right: 2px;
+    }
+  } @else {
+    &::-webkit-scrollbar-thumb {
+      border-radius: 2px;
+      background-color: rgba(0,0,0,.25);
+      margin-right: 2px;
+    }
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+
+  &::-webkit-scrollbar-thumb:active {
+    background: rgba(0,0,0,0.4);
+  }
+}
+
+// bulma overrides
+@mixin button-word-wrap {
+  height: initial;
+  white-space: initial;
+}
+
+//resetting body for a cleaner setup
+body * {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+//always animate FontAwesome icons
+.fa,.fas,.far,.fab,.fal {
+  @include animate;
+}
+
+
+/////////////////////////////////////////////////////////
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+}
