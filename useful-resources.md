@@ -15,7 +15,7 @@ Here's a few resources to help understand ARGs. If you are new to ARGs or puzzle
 * **cipher** - a method of modifying data to hide it from other people who don't know how to decipher it.
 * **hexadecimal** - a number system with 16 digits \(0-9, A-F\); used in computing as each character can represent four binary digits. Usually prefixed with 0x.
 * **Morse code** - an alphabet or code traditionally used by radio operators where characters are represented by dashes and dots \(or long and short signals\)
-* **trailhead** - the initial clue or event that starts an ARG. For example, one can type "!trailhead" into \#bot-spam to get access to the rest of the ARG channels.
+* **trailhead** - the initial clue or event that starts an ARG. For example, one can type "?trailhead" into \#bot-spam to get access to the rest of the ARG channels.
 * **pigpen cipher** - also known as a tic tac toe cipher, a simple substitution cipher in which letters are fragments of a grid
 * **rabbit hole** - an endless descent into the unknown, commonly referring to a combined stretch in logic
 * **red herring** - a "clue" with no purpose, meant to mislead the players of an ARG.
