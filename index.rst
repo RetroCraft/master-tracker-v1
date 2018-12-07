@@ -1,4 +1,3 @@
-
 Welcome!
 ========
 
@@ -14,45 +13,43 @@ Website Outline
 This doc is divided **by gate** (plus pre-ARG and gateway), with four subsections for each gate.
 
 
-* ***Open leads**\ _ are **unsolved** leads that are **actively** being investigated.
-* 
-  ***Cold leads**\ _ are **stale** leads that have only lead to dead ends, and may not be a part of the ARG.
-
+- **Open leads** are **unsolved** leads that are **actively** being investigated.
+- **Cold leads** are **stale** leads that have only lead to dead ends, and may not be a part of the ARG.
   Probably don't bother, 99% will be a waste of time.
-
-* 
-  ***Closed leads**\ _ are **solved** leads that **should not be repeated** as that would be a waste of time. Solved gates are also marked as **"archived"**\ , which should be treated the same. *Please note that the instructions for accessing the ARG channels is not within an archived gate.*
-
-* ***Hoaxes**\ _ are confirmed to either be fake or unrelated.
+- **Closed leads** are **solved** leads that **should not be repeated** as that would be a waste of time.
+  Solved gates are also marked as **"archived"**, which should be treated the same.
+  *Please note that the instructions for accessing the ARG channels is not within an archived gate.*
+- **Hoaxes** are confirmed to either be fake or unrelated.
 
 **Leads are divided into their origins**\ , which give the lead a zero-indexed **ID number**\ , which is also used for that lead's URL/filename. For example, **D.Y1** for a Digital/YouTube lead. ID numbers are prefixed with their gate if being referenced from another gate, so as not to confuse two D.Y0's, etc.
 
 
-* **Digital** (D): originating from the internet
+- **Digital** (D): originating from the internet
 
-  * **YouTube** (Y): originating from YouTube (channels, assets, videos)
-  * **Gateway** (G): originating from thetheoristgateway.com or a clearly affiliated site
-  * **External** (E): originating from external websites
+  - **YouTube** (Y): originating from YouTube (channels, assets, videos)
+  - **Gateway** (G): originating from thetheoristgateway.com or a clearly affiliated site
+  - **External** (E): originating from external websites
 
-* **Real-World** (R): originating from the physical world
+- **Real-World** (R): originating from the physical world
 
-  * **Merch** (M): originating from merch
+  - **Merch** (M): originating from merch
 
-* **Keys** (K): labeled keys from gates
+- **Keys** (K): labeled keys from gates
 
 The editors of this document are, along with their time zones (don't ping sleeping people):
 
 
-* **@retrocraft#6259** (owner/author), Eastern Standard Time (UTC-5, America/New York)
-* **@octoshrimpy#4419**\ , Mountain Standard Time (UTC-7, America/Denver)
-* **@Daviado#3449**\ , Eastern Standard Time (UTC-5)
-* **@Konto#1846**\ , Eastern Standard Time (UTC-5)
+- **@retrocraft#6259** (owner/author), Eastern Standard Time (UTC-5, America/New York)
+- **@octoshrimpy#4419**\ , Mountain Standard Time (UTC-7, America/Denver)
+- **@Daviado#3449**\ , Eastern Standard Time (UTC-5)
+- **@Konto#1846**\ , Eastern Standard Time (UTC-5)
 
 And finally, a word of wisdom:
 
 ..
 
-   please remember to pay attention to all details before trying to jump into finding a solution. this is why we keep going in circles, everyone is rushing to find a solution and all they did was repeat a fraction of the work done months ago.
+   please remember to pay attention to all details before trying to jump into finding a solution.
+   this is why we keep going in circles, everyone is rushing to find a solution and all they did was repeat a fraction of the work done months ago.
 
    and please don't bring too much personal connection to your theories..
 
@@ -60,3 +57,11 @@ And finally, a word of wisdom:
 
    —@Konto#1846, #fortnite-puzzle-discussion-2
 
+.. toctree::
+   :maxdepth: 2
+   opening-notes
+   pre-arg
+   gate-0
+   gate-1
+   gate-2
+   useful-resources

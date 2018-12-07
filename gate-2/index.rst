@@ -9,3 +9,6 @@ As of 12/05, the second gateway started a 48 hour countdown leading to 10:07PM E
    :target: ../../.gitbook/assets/gate2icon_closed_w900lt9QxCOtIyEBRx8sKwtZ6ZJ9TQNsxo5hEkrD.gif
    :alt: 
 
+.. toctree::
+   digital
+   keys
