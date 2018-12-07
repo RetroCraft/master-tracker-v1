@@ -8,7 +8,7 @@ These graphics replace the "Under Construction" image and the blurred gates from
 Each gate contains three key icons, indicating that three "keys" will be required to continue past each gate.
 The final seventh gate has icons for four keys, indicating a substantial difficulty increase, along with the message "YOU.DON'T.WANT.NONE.OF.THIS"
 
-The gates follow the colour scheme set out in the wireframe from [pre:D.E2](../pre-arg/digital/d.e2-leave-luck-to-heaven.md) and have different themes.
+The gates follow the colour scheme set out in the wireframe from [pre:D.E2](../pre-arg/d.e2.md) and have different themes.
 What follows is a framework for theorizing the theme of each gate:
 
 1. Futuristic arch with a video game controllers as gates.
