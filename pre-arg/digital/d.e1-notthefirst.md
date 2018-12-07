@@ -18,13 +18,13 @@ The bottom text is now `THATS NOT A TVPO` with a purposeful typo.
 
 The image's filename is now `HuWppXqNzmod_57656c6c20746861742077617320656173792e20446f6e277420676574207573656420746f2069742e.png` which decodes to `Well that was easy. Don't get used to it.`
 
-![Completed word search](../../assets/0.d.e1.crossword.png)
+![Completed word search](../../assets/pre.d.e1.crossword.png)
 
 By using the same colour filter trick as [D.E0](d.e0-theorist-gateway.md) \(`0xFEFEFE`\), one discovers the hidden text "july 15 1983" and "the first 17".
 Upon inspecting the EXIF data of the file, one can discover similarly named Photoshop layers, further indicating this clue.
 07/15/1983 was the launch date for the Nintendo Famicom in Japan, soon to become the NES in North America.
 
-![Hidden text at bottom of word search](../../assets/0.d.e1.hidden-text.png)
+![Hidden text at bottom of word search](../../assets/pre.d.e1.hidden-text.png)
 
 The highlighted words in the figure above are the first 17 launch titles for the Famicom.
 Each of these words has some letters that are replaced with symbols.

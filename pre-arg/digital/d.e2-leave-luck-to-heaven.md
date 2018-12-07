@@ -2,7 +2,7 @@
 
 Continuing from [D.E1](d.e1-notthefirst.md) leads us to [this site](https://www.thetheoristgateway.com/leavelucktoheaven/). This site has a photo of a notepad with all kinds of clues named "youareprepared.jpg". It also contains a hidden element with the text "Patience". It should be noted that the site is actually "leavelucktoheaven" instead of just "lucktoheaven". This reinforces the Nintendo theme, as Nintendo can be loosely translated as "leave luck to heaven".
 
-![Notebook image](../../assets/0.d.e2.youareprepared.png)
+![Notebook image](../../assets/pre.d.e2.youareprepared.png)
 
 The CSS sheet that defines the styling for the page has a snippet at the bottom saying "Wow you guys are digging deep. I guess we could put something in here, couldn't we?", indicating that it is entirely possible that future pages' CSS and JavaScript files may have clues hidden within.
 
