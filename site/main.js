@@ -15,8 +15,6 @@ $(document).ready(function(){
 
     // collapse sections
     $(document).on('click', '.menu-header .icon', function(){
-        console.log($(this))
-
         $(this).parents('.menu-list').next('.collapse-me').slideToggle()
         $(this).parents('.menu-header').toggleClass('is-expanded')
     })
