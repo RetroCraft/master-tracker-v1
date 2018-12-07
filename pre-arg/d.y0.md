@@ -10,7 +10,7 @@ decoded with ROT1 to `There are no Easter Eggs in here. Go away.`
 
 A cipher was also discovered in the video, `23 5 - 23 15 21 12 4 - 14 15 20 - 13 1 11 5 - 9 20 - 0 8 1 20 - 5 1 19 25`, which decoded to `we would not make it that easy` with an A1Z26 cypher.
 
-Within the tags of the video, as the UUID UCVNTZJXAuvE3C7SfOsPNgEA, another [YouTube channel](https://www.youtube.com/channel/UCVNTZJXAuvE3C7SfOsPNgEA) was discovered \([D.Y1](d.y1-tenretni-olleh.md)\).
+Within the tags of the video, as the UUID UCVNTZJXAuvE3C7SfOsPNgEA, another [YouTube channel](https://www.youtube.com/channel/UCVNTZJXAuvE3C7SfOsPNgEA) was discovered \([D.Y1](d.y1.md)\).
 
 During the video, MatPat mentions theorist points.
 He also mentions the timestamp 08:52 earlier in the video.
