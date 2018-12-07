@@ -19,17 +19,16 @@ $(document).ready(function(){
         $(this).parents('.menu-header').toggleClass('is-expanded')
     })
 
-    // create sidebar
-    // UNUSED FOR NOW
-    $.getJSON('./config/sidebar.json', function(data){
-
-    })
-
+    let organizer = grabPage('test')
+    console.log(organizer)
 
 })
 
 function grabPage(loc){
-
+    let foo;
+    $.getJSON('../config/markdown-organizer.json', function(data){
+        foo = data
+    })
 }
 
 function loadPage(page){
@@ -43,3 +42,5 @@ function MdToHtml(md){
 
     return html;
 }
+
+function createSidebar

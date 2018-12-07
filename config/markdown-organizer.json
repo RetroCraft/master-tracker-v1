@@ -2,9 +2,34 @@
     "gates":[
         {
             "title": "Gate 1",
+            "url": "pre-arg/g1/",
             "pages": [
+                {
+                    "title": "Digital",
+                    "sections": [
+                        {
+                            "title": "Y.0",
+                            "pages":[
+                                "location of page"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Real World",
+                    "sections": [
+
+                    ]
+                },
+                {
+                    "title": "Keys",
+                    "pages": [
+
+                    ]
+                },
 
             ]
+
         },
         {
             "title": "Gate 2",
