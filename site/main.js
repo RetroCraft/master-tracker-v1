@@ -35,3 +35,11 @@ function grabPage(loc){
 function loadPage(page){
 
 }
+
+function MdToHtml(md){
+
+    var converter = new showdown.Converter(),
+    html      = converter.makeHtml(md);
+
+    return html;
+}
