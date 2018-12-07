@@ -19,9 +19,54 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+
+    .collapse-me {
+      display: none;
+    }
+
+    .menu-header {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        color: $white;
+        @include animate;
+        cursor: pointer;
+      }
+
+      .name {
+        font-size: .75em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        flex-grow: 1;
+      }
+
+      &.is-expanded {
+
+        .icon {
+          transform : rotate(90deg);
+        }
+      }
+    }
+
+
+    .menu-label{
+
+      .icon {
+        cursor: pointer;
+
+        .is-open {
+          transform: rotate(90deg);
+        }
+      }
+
+      .name {
+        @include sidebar-hover;
+      }
+    }
   }
 
-  .menu-list {
+  .menu-grow {
     flex-grow: 1;
   }
 
@@ -32,17 +77,6 @@
 
   }
 
-  li a{
-    color: $clouds;
-  }
-  .menu-list .is-active{
-    background: $white;
-    color: $aggieblue-dark;
-
-    li, a {
-      color: inherit;
-    }
-  }
 }
 
 .content-card {

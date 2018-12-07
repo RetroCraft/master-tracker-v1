@@ -1,0 +1,48 @@
+{
+    "sidebar": {
+    "pages": [
+        {
+            "title": "first sidebar item",
+            "pages": [
+                "test"
+            ]
+        },
+        {
+            "title": "Gates",
+            "header": true
+        },
+        {
+            "title": "Gate 1",
+            "hasChildren": true,
+            "children": [
+                {
+                    "title": "Digital",
+                    "pages": [
+                        "g1-d.y0",
+                        "g1-d.y1",
+                        "g1-d.y2",
+                        "g1-d.y3"
+                    ]
+
+                },
+                {
+                    "title": "Real World",
+                    "pages": [
+                        "g1-rw"
+                    ]
+
+                },
+                {
+                    "title": "Keys",
+                    "pages": [
+                        "g1-k"
+                    ]
+
+                }
+            ]
+        }
+
+    ]
+    }
+
+}

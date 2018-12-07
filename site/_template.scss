@@ -165,3 +165,44 @@ body {
 
   display: flex;
 }
+
+
+//////////////////////////////////
+
+@mixin sidebar-hover {
+  cursor: pointer;
+
+  &:hover {
+    background: $clouds;
+    color: $aggieblue-dark;
+  }
+}
+
+// bulma overrides
+.menu {
+
+  li a{
+    color: $clouds;
+  }
+
+  .menu-label {
+    color: $clouds;
+  }
+
+  .list-label {
+    cursor: initial;
+    &:hover {
+      background: transparent;
+      color: $clouds;
+    }
+  }
+
+  .menu-list .is-active:not(.list-label){
+    background: $white;
+    color: $aggieblue-dark;
+
+    li, a {
+      color: inherit;
+    }
+  }
+}

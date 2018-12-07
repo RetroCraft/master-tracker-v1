@@ -1,24 +1,74 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js" charset="utf-8"></script>
 <link rel="stylesheet" href="./site/main.min.css">
 <script src="./site/main.js" charset="utf-8"></script>
 
 <div class="main">
 
   <div class="sidebar">
+    <!--
+      look here for help: https://bulma.io/documentation/components/menu/
+    -->
     <aside class="menu">
+      <!-- basic example
+      <p class="menu-label">
+        Header
+      </p>
       <ul class="menu-list">
-        <li class="nav-page is-active" data-page="dash"><a>dashboard</a></li>
-        <li class="nav-page" data-page="test"><a>test string</a></li>
-        <li class="nav-page" data-page="report"><a>reporting</a></li>
-        <li class="nav-page" data-page="questions"><a>questionnaire</a></li>
+        <li><a>list item</a></li>
+        <li>
+          <a class="is-active">header for inner list, just a regular item</a>
+          <ul>
+            <li><a>inner list item</a></li>
+            <li><a>inner list item</a></li>
+          </ul>
+        </li>
+          <li><a>list item</a></li>
+            <li><a>list item</a></li>
       </ul>
+      -->
+      <div class="menu-grow">
+
+        <div class="menu-list">
+          <li class="menu-header">
+            <span class="icon ">
+              <i class="fas fa-chevron-right"></i>
+            </span>
+            <a class="name nav-page">Gate 1</a>
+          </li>
+        </div>
+
+        <div class="collapse-me">
+          <ul class="menu-list">
+            <li>
+              <a class="list-label">Digital</a>
+              <ul class="">
+                <li class="is-active nav-page"><a>Y1</a></li>
+                <li class="nav-page"><a>Y2</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="menu-list">
+            <li>
+              <a class="list-label">Real World</a>
+              <ul class="">
+                <li class="nav-page"><a>Y1</a></li>
+                <li class="nav-page"><a>Y2</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="menu-list">
+            <li class="nav-page"><a>Keys</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+      <!-- leave bottom options here, for future use -->
       <ul class="bottom-options">
-        <li class="has-text-right"><a>
-          <div class="anum reset-blokk">#A02438954</div>
-          <span class="icon">
-            <i class="fas fa-cog"></i>
-          </span>
-        </a></li>
+        <!--
+        <li class="has-text-right"><a></a></li>
+        -->
       </ul>
     </aside>
   </div>
