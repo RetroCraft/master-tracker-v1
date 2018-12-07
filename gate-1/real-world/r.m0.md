@@ -14,7 +14,7 @@ This string does not represent BASIC code or any recognized programming language
 The reverse side is a message signed by MatPat \(with a semicolon in place of an en dash\).
 There are five capitalized letters, in order "WATCH".
 
-Embossed into the background is text encoded using the system from [pre:D.Y3](../../pre-arg/digital/d.y3-youareprepared.md).
+Embossed into the background is text encoded using the system from [pre:D.Y3](../../pre-arg/digital/d.y3.md).
 This text states "the deadly sins / the dwarves of snow white / the deathly hallows" seemingly indicating the number 777 \(seven deadly sins, seven dwarves, seventh Harry Potter book\).
 
 The most likely purpose of this clue was for MatPat to wish all prospective ARG solvers good luck.

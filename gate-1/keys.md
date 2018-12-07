@@ -6,7 +6,7 @@ It was then finally clear what a "key" and a "gate" were.
 ## 1: FAMICOM
 
 A blurred picture of a Famicom was provided, subsequently easily and quickly identified.
-The concept of "Famicom" as a clue first appeared in [pre:D.E1](../pre-arg/digital/d.e1-notthefirst.md) alongside the Japanese release date of 07/15/1983.
+The concept of "Famicom" as a clue first appeared in [pre:D.E1](../pre-arg/digital/d.e1.md) alongside the Japanese release date of 07/15/1983.
 Therefore, the key was Famicom.
 
 ![Blurred Famicom gif](../assets/1.k.1.famicom.gif)
@@ -14,7 +14,7 @@ Therefore, the key was Famicom.
 ## 2: KOOPA TROOPA
 
 The second key was a sprite of Link from the NES Legend of Zelda game with the text "the one replaced".
-This hearkened back to [pre:D.Y3](https://docs.google.com/document/d/1ODR4aT7x6KT9xr-D9lMoXox9_3Xt86UINMvnhyQJh9o/edit#heading=h.cm1if0tb0x68), where the text "the one replaced" was found.
+This hearkened back to [pre:D.Y3](../pre-arg/digital/d.y3.md), where the text "the one replaced" was found.
 This clue specifically refers to how the provided Link sprite replaced a Koopa Troopa in the Game Theory intro in pre:D.Y3.
 Therefore, the key was Koopa Troopa.
 
@@ -29,7 +29,7 @@ The clip consisted of a video of an R.O.B. controller/robot for the Famicom.
 
 The first section, notated 3A both on the site and on this document, was marked within a spectrogram of the video.
 It revealed a barcode and the text "bit.ly/lucktoheaven" and "the year in coins".
-Referring to [pre:D.E2](../pre-arg/digital/d.e2-leave-luck-to-heaven.md), there are 93¢ in coins, indicating the year 1993.
+Referring to [pre:D.E2](../pre-arg/digital/d.e2.md), there are 93¢ in coins, indicating the year 1993.
 Combining it with the barcode hex which was decoded to "yoshi", the connection to the 1993 Famicom game Yoshi's Safari becomes trivial.
 QED.
 
@@ -48,7 +48,7 @@ The resulting audio was recognized as the "Overworld" theme from The Legend of Z
 
 The final key from the R.O.B.
 video could be found on one of the countdown frames.
-The frame contained the upside-down Game Theory logo signifying an ARG clue existed along with "alien" letters from [pre:D.Y3](../pre-arg/digital/d.y3-youareprepared.md).
+The frame contained the upside-down Game Theory logo signifying an ARG clue existed along with "alien" letters from [pre:D.Y3](../pre-arg/digital/d.y3.md).
 The letters decoded to "Seek two brothers and the bot / Unhex the purple perpetrator".
 On another frame where two brothers are playing a game with R.O.B., the text `http://www.imgur.com/4469384a784d67` is visible.
 "Unhexing" \(ASCII hex decoding\) the highlighted purple text gives "<http://www.imgur.com/Di8JxMg>", an image clearly indicating Key 3C.
