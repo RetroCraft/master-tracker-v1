@@ -7,12 +7,13 @@ $(document).ready(function(){
     })
 
     $(document).on('click', '.nav-page', function(){
-        console.log($(this).data('page'))
+        $('.nav-page.is-active').removeClass('is-active')
+        $(this).addClass('is-active')
     })
 })
 
 function grabPage(loc){
-    
+
 }
 
 function loadPage(page){
