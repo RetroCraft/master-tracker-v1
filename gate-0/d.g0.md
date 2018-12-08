@@ -1,7 +1,7 @@
 # D.G0: gateway
 
 On 11/01, the gateway site updated with new information.
-This included a "Getting Started" page and a leaderboard \([D.G1](d.g1-leaderboard.md)\).
+This included a "Getting Started" page and a leaderboard \([D.G1](d.g1.md)\).
 The "Getting Started" page included links to this document\(!!\) along with the Discord, subreddit, and Twitter.
 
 ![Gate 1 with release date](../assets/0.d.g0.gate-1.png)

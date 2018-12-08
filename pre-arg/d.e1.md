@@ -1,9 +1,9 @@
 # D.E1: notthefirst
 
-The [notthefirst](https://www.thetheoristgateway.com/notthefirst18fc17.html) page was discovered through [D.Y3](d.y3-youareprepared.md).
+The [notthefirst](https://www.thetheoristgateway.com/notthefirst18fc17.html) page was discovered through [D.Y3](d.y3.md).
 The suffix text \(`18fc17`\) is the hex colour code for the normal Game Theory logo.
 It displays a static image \(`entertheurlpart01.png`\) with an animated GIF \(`180mustyougo_thishastobetheeasiestclueeverpart01.gif`\).
-The image shows the text "https://www.thetheoristgateway.com/3932396663/\[gap\].html" and the GIF is a spinning form of the red Game Theory logo from [D.Y1](d.y1-tenretni-olleh.md).
+The image shows the text "https://www.thetheoristgateway.com/3932396663/\[gap\].html" and the GIF is a spinning form of the red Game Theory logo from [D.Y1](d.y1.md).
 The name “not the first” likely means that this stage is not the first gate.
 
 By interpreting the text from the logo as it is written, [this page](https://www.thetheoristgateway.com/3932396663/powzNbXddMnH.html) is discovered.
@@ -20,7 +20,7 @@ The image's filename is now `HuWppXqNzmod_57656c6c20746861742077617320656173792e
 
 ![Completed word search](../../assets/pre.d.e1.crossword.png)
 
-By using the same colour filter trick as [D.E0](d.e0-theorist-gateway.md) \(`0xFEFEFE`\), one discovers the hidden text "july 15 1983" and "the first 17".
+By using the same colour filter trick as [D.E0](d.e0.md) \(`0xFEFEFE`\), one discovers the hidden text "july 15 1983" and "the first 17".
 Upon inspecting the EXIF data of the file, one can discover similarly named Photoshop layers, further indicating this clue.
 07/15/1983 was the launch date for the Nintendo Famicom in Japan, soon to become the NES in North America.
 
@@ -32,10 +32,10 @@ Each of the symbols has a specific colour.
 All of the symbols translated, in order from left to right and top to bottom, spell out "AVONIELKEULCTTBHY".
 By grouping symbols of the same colour together, we get "BIT", "LY", "LUCK", "TO", and "HEAVEN".
 The order is indicated by the text at the top "3.2/426" using the length of each segment.
-This leads to the site [bit.ly/lucktoheaven](http://bit.ly/lucktoheaven) for our next clue \([D.E2](d.e2-leave-luck-to-heaven.md)\).
+This leads to the site [bit.ly/lucktoheaven](http://bit.ly/lucktoheaven) for our next clue \([D.E2](d.e2.md)\).
 
 ## **D.E1.A: fc.jpg**
 
 Without any clue pointing directly at it, theorists discovered [https://www.thetheoristgateway.com/fc.jpg](https://www.thetheoristgateway.com/fc.jpg).
 The method of discovery is debated, however it is certain that it was not meant to be found as a part of the ARG.
-This image deciphers to the exact same result as [D.E1](d.e1-notthefirst.md), indicating that the image is likely an earlier version of the image from that lead that MatPat \(or whoever was in charge\) forgot to delete.
+This image deciphers to the exact same result as [D.E1](d.e1.md), indicating that the image is likely an earlier version of the image from that lead that MatPat \(or whoever was in charge\) forgot to delete.

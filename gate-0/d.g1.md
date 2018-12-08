@@ -2,7 +2,7 @@
 
 The leaderboard page consists of
 
-Previously, on 11/01, the gateway site updated to be a leaderboard that looks a lot like the wireframe from [pre:D.E2](../pre-arg/digital/d.e2-leave-luck-to-heaven.md).
+Previously, on 11/01, the gateway site updated to be a leaderboard that looks a lot like the wireframe from [pre:D.E2](../pre-arg/d.e2.md).
 As the gates had not yet started, all leaderboard entries were fake accounts.
 All the times were ∞ and all the keys were 0. The ten fake accounts were:
 
