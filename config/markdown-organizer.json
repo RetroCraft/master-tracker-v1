@@ -1,41 +1,145 @@
 {
-    "gates":[
+  "pages": [
+    {
+      "title": "Welcome!",
+      "page": "README"
+    },
+    {
+      "title": "Opening Notes",
+      "page": "opening-notes"
+    },
+    {
+      "title": "Pre-ARG",
+      "url": "pre-arg/",
+      "pages": [
         {
-            "title": "Gate 1",
-            "url": "pre-arg/g1/",
-            "pages": [
-                {
-                    "title": "Digital",
-                    "sections": [
-                        {
-                            "title": "Y.0",
-                            "pages":[
-                                "location of page"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "title": "Real World",
-                    "sections": [
-
-                    ]
-                },
-                {
-                    "title": "Keys",
-                    "pages": [
-
-                    ]
-                }
-
-            ]
-
+          "title": "Digital",
+          "sections": [
+            {
+              "title": "D.Y0: What is MatPat HIDING?",
+              "page": "d.y0"
+            },
+            {
+              "title": "D.Y1: tenretni olleh",
+              "page": "d.y1"
+            },
+            {
+              "title": "D.Y2: gtlive bookshelf",
+              "page": "d.y2"
+            },
+            {
+              "title": "D.E0: theorist gateway",
+              "page": "d.e0"
+            },
+            {
+              "title": "D.Y3: ◉youareprepared◉",
+              "page": "d.y3"
+            },
+            {
+              "title": "D.E1: notthefirst",
+              "page": "d.e1"
+            },
+            {
+              "title": "D.E2: leave luck to heaven",
+              "page": "d.e2"
+            },
+            {
+              "title": "D.Y4: The END of Princess Peach",
+              "page": "d.y4"
+            },
+            {
+              "title": "D.Y5: Why You CAN'T Beat Super Smash Bros Ultimate!",
+              "page": "d.y5"
+            },
+            {
+              "title": "D.Y6: SuperHot.exe is a VIRUS!",
+              "page": "d.y6"
+            }
+          ]
         },
         {
-            "title": "Gate 2",
-            "pages": [
-
-            ]
+          "title": "Real World",
+          "sections": [
+            {
+              "title": "R.M0: jpaulers shirt",
+              "page": "r.m0"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "title": "Gateway",
+      "url": "gate-0/",
+      "pages": [
+        {
+          "title": "D.G0: gateway",
+          "page": "d.g0"
+        },
+        {
+          "title": "D.G1: leaderboard",
+          "page": "d.g1"
+        },
+        {
+          "title": "D.G2: gates",
+          "page": "d.g2"
+        }
+      ]
+    },
+    {
+      "title": "Gate 1",
+      "url": "gate-1/",
+      "pages": [
+        {
+          "title": "Real World",
+          "sections": [
+            {
+              "title": "R.M0: instructions begin",
+              "page": "r.m0"
+            }
+          ]
+        },
+        {
+          "title": "Keys",
+          "page": "keys"
+        },
+        {
+          "title": "Digital",
+          "sections": [
+            {
+              "title": "D.G1: alaska",
+              "page": "d.g1"
+            },
+            {
+              "title": "D.Y1: This is NOT Your Story!",
+              "page": "d.y1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gate 2",
+      "url": "gate-2/",
+      "pages": [
+        {
+          "title": "Digital",
+          "sections": [
+            {
+              "title": "D.G0: artwork update",
+              "page": "d.g0"
+            }
+          ]
+        },
+        {
+          "title": "Keys",
+          "page": "keys"
+        }
+      ]
+    },
+    {
+      "title": "Useful Resources",
+      "page": "useful-resources"
+    }
+  ]
 }
