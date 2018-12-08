@@ -14,6 +14,9 @@
   padding: 1rem;
   z-index: 3;
   display: flex;
+  max-height: 100%;
+  overflow: auto;
+  @include custom-scroll;
 
   .menu {
     flex-grow: 1;

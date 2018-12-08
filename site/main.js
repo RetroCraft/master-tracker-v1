@@ -34,7 +34,7 @@ function loadPage(page){
 function MdToHtml(md){
 
     var converter = new showdown.Converter(),
-    html      = converter.makeHtml(md);
+    html = converter.makeHtml(md);
 
     return html;
 }
@@ -51,8 +51,8 @@ function _createSidebar(data){
 
     let $sidebarRoot = $('.menu-grow')
 
-    for(let count in data.pages){
-        let page = data.pages[count]
+    for(let page of data.pages){
+        // let page = data.pages[count]
 
         // create header and collapsible menu
         let $menuList = $('<div>')
@@ -66,7 +66,7 @@ function _createSidebar(data){
               <i class="fas fa-chevron-right"></i>
             </span>
         `)
-
+        
         let $name = $('<a>')
             .addClass('name nav-page')
             .html(page.title)
@@ -81,8 +81,8 @@ function _createSidebar(data){
             let $collapse = $('<div>')
                 .addClass('collapse-me')
 
-            for(let count in pages){
-                let innerPage = pages[count]
+            for(let innerPage of pages){
+                // let innerPage = pages[count]
 
                 let $menuList = $('<ul>')
                     .addClass('menu-list')
@@ -96,9 +96,9 @@ function _createSidebar(data){
                 let $ulWrap = $('<ul>')
 
                 if(innerPage.sections){
-                    for(let count in innerPage.sections){
-                        let section = innerPage.sections[count]
-                        console.log(section)
+                    for(let section of innerPage.sections){
+                        // let section = innerPage.sections[count]
+                        // console.log(section)
 
                         let $innerInnerSection = $(`
                             <li class="nav-page"><a>${section.title}</a></li>
