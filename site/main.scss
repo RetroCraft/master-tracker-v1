@@ -84,15 +84,24 @@
 
 .content-card {
   background: $white;
-
-  .header {
-    background: $white;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-  }
+  overflow: auto;
+  max-height: 100%;
 
   .content {
-    background: $white;
+    background: $clouds;
+    padding: 2rem;
+    min-height: 100%;
+
+    h1 {
+      @include sticky;
+      background: $white;
+      padding: 2rem 1rem;
+    }
   }
 }
+
+img {
+  max-height: 25rem;
+}
+
+//

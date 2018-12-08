@@ -1,149 +1,184 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-    // setup nav
-    $('.nav-page').each(function(){
-        console.log(`cleaned ${$(this).data('page')}!`)
-        $(this).data('page', $(this).data('page'))
-        $(this).removeAttr('data-page')
-    })
+  // setup nav
+  $('.nav-page').each(function() {
+    console.log(`cleaned ${$(this).data('page')}!`)
+    $(this).data('page', $(this).data('page'))
+    $(this).removeAttr('data-page')
+  })
 
-    // navigate
-    $(document).on('click', '.nav-page', function(){
-        $('.nav-page.is-active').removeClass('is-active')
-        $(this).addClass('is-active')
-    })
+  // navigate
+  $(document).on('click', '.nav-page', function() {
+    $('.nav-page.is-active').removeClass('is-active')
+    $(this).addClass('is-active')
 
-    // collapse sections
-    $(document).on('click', '.menu-header .icon', function(){
-        $(this).parents('.menu-list').next('.collapse-me').slideToggle()
-        $(this).parents('.menu-header').toggleClass('is-expanded')
-    })
+    loadPage($(this).attr('data-href'))
+  })
 
-    initSidebar()
+  // collapse sections
+  $(document).on('click', '.menu-header .icon', function() {
+    $(this).parents('.menu-list').next('.collapse-me').slideToggle()
+    $(this).parents('.menu-header').toggleClass('is-expanded')
+  })
+
+  initSidebar()
 
 })
 
-function grabPage(loc){
-
-}
-
-function loadPage(page){
-
-}
-
-function MdToHtml(md){
-
-    var converter = new showdown.Converter(),
-    html = converter.makeHtml(md);
-
-    return html;
-}
-function initSidebar(){
-    $.getJSON('../config/markdown-organizer.json')
+function loadPage(page) {
+  $.ajax(`../${page}.md`)
     .then(function(data){
-        _createSidebar(data)
+      const html = MdToHtml(data);
+      $content = $(".content");
+      $content.fadeOut("fast", function() {
+        $content.html($(html)).fadeIn();
+
+        // implement modal for images
+        for (let img of $("img")) {
+          $img = $(img);
+          const src = $img.attr("src");
+          const id = src.replace(/\W/g, "");
+          $img
+            .attr("id", `${src}-img`)
+            .addClass("image");
+          // setup listener
+          $img.click(function() {
+            $(`#${id}-modal`).addClass("is-active");
+          });
+          // setup modal
+          $(".main").append(
+            $(`
+              <div class="modal" id="${id}-modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <img src="${src}" class="image">
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+              </div>
+            `)
+          );
+          $(".modal-close, .modal-background").click(function() {
+            $(".modal").removeClass("is-active");
+          });
+        }
+      });
     })
 }
 
-function _createSidebar(data){
+function MdToHtml(md) {
+  var converter = new showdown.Converter(),
+    html = converter.makeHtml(md);
 
-    $('.menu-grow').empty()
+  return html;
+}
 
-    let $sidebarRoot = $('.menu-grow')
+function initSidebar() {
+  $.getJSON('../config/markdown-organizer.json')
+    .then(function(data) {
+      _createSidebar(data)
+    })
+}
 
-    for(let page of data.pages){
+function _createSidebar(data) {
 
-        // create header and collapsible menu
-        let $menuList = $('<div>')
-            .addClass('menu-list')
+  $('.menu-grow').empty()
 
-        let $menuHeader = $('<li>')
-            .addClass('menu-header')
+  let $sidebarRoot = $('.menu-grow')
 
-        let $headerIcon = $(`
-            <span class="icon ">
-              <i class="fas fa-chevron-right"></i>
-            </span>
-        `)
+  for (let page of data.pages) {
 
-        let $name = $('<a>')
-            .addClass('name nav-page')
-            .html(page.title)
+    // create header and collapsible menu
+    let $menuList = $('<div>')
+      .addClass('menu-list')
 
-        if(page.page){
-            $name.attr('data-href', page.page)
+    let $menuHeader = $('<li>')
+      .addClass('menu-header')
+
+    let $headerIcon = $(`
+      <span class="icon ">
+        <i class="fas fa-chevron-right"></i>
+      </span>
+    `)
+
+    let $name = $('<a>')
+      .addClass('name nav-page')
+      .html(page.title)
+
+    if (page.url) {
+      const url = page.slug ? `${page.slug}/` : ''
+      $name.attr('data-href', `${url}${page.url}`)
+    }
+
+    let $collapse;
+
+    if (page.pages) {
+      let pages = page.pages
+
+      $collapse = $('<div>')
+        .addClass('collapse-me')
+
+      for (let innerPage of pages) {
+
+        let $menuList = $('<ul>')
+          .addClass('menu-list')
+
+        let $liWrap = $('<li>')
+
+        let $listLabel = $('<a>')
+          .html(innerPage.title)
+
+        let $ulWrap = $('<ul>')
+
+        if (innerPage.sections) {
+          for (let section of innerPage.sections) {
+
+            $listLabel
+              .addClass('list-label')
+
+            let $innerInnerSection = $(`
+              <li class="nav-page" data-href="${page.slug}/${section.page}">
+                  <a>
+                    ${section.title}
+                  </a>
+              </li>
+            `)
+
+            $ulWrap
+              .append($innerInnerSection)
+          }
+
+        } else if(innerPage.page) {
+          $listLabel
+            .addClass('nav-page')
+            .attr('data-href', `${page.url}/${innerPage.page}`)
         }
 
-        let $collapse;
-
-        if(page.pages){
-            let pages = page.pages
-
-            $collapse = $('<div>')
-                .addClass('collapse-me')
-
-            for(let innerPage of pages){
-
-                let $menuList = $('<ul>')
-                    .addClass('menu-list')
-
-                let $liWrap = $('<li>')
-
-                let $listLabel = $('<a>')
-                    .addClass('list-label')
-                    .html(innerPage.title)
-
-                let $ulWrap = $('<ul>')
-
-                if(innerPage.sections){
-                    for(let section of innerPage.sections){
-                        // console.log(section)
-
-                        let $innerInnerSection = $(`
-                            <li class="nav-page"><a>${section.title}</a></li>
-                        `)
-
-                        $ulWrap
-                            .append($innerInnerSection)
-                    }
-
-                }
-
-
-                $liWrap
-                    .append($listLabel)
-                    .append($ulWrap)
-
-                $menuList
-                    .append($liWrap)
-
-                $collapse
-                    .append($menuList)
-            }
-
-            // $sidebarRoot
-        }
-
-        // attach everything so far
-        $menuHeader
-            .append($headerIcon)
-            .append($name)
+        $liWrap
+          .append($listLabel)
+          .append($ulWrap)
 
         $menuList
-            .append($menuHeader)
+          .append($liWrap)
 
-
-
-        // create the items below it
-
-
-
-        $sidebarRoot
-            .append($menuList)
-
-        if(page.pages){
-            $sidebarRoot
-                .append($collapse)
-        }
+        $collapse
+          .append($menuList)
+      }
     }
+
+    // attach everything so far
+    $menuHeader
+      .append($headerIcon)
+      .append($name)
+
+    $menuList
+      .append($menuHeader)
+
+    $sidebarRoot
+      .append($menuList)
+
+    if (page.pages) {
+      $sidebarRoot
+        .append($collapse)
+    }
+  }
 }

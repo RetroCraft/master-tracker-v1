@@ -2,15 +2,16 @@
   "pages": [
     {
       "title": "Welcome!",
-      "page": "README"
+      "url": "README"
     },
     {
       "title": "Opening Notes",
-      "page": "opening-notes"
+      "url": "opening-notes"
     },
     {
       "title": "Pre-ARG",
-      "url": "pre-arg/",
+      "slug": "pre-arg",
+      "url": "README",
       "pages": [
         {
           "title": "Digital",
@@ -70,7 +71,8 @@
     },
     {
       "title": "Gateway",
-      "url": "gate-0/",
+      "slug": "gate-0",
+      "url": "README",
       "pages": [
         {
           "title": "D.G0: gateway",
@@ -88,7 +90,8 @@
     },
     {
       "title": "Gate 1",
-      "url": "gate-1/",
+      "slug": "gate-1",
+      "url": "README",
       "pages": [
         {
           "title": "Real World",
@@ -120,7 +123,8 @@
     },
     {
       "title": "Gate 2",
-      "url": "gate-2/",
+      "slug": "gate-2",
+      "url": "README",
       "pages": [
         {
           "title": "Digital",
@@ -139,7 +143,7 @@
     },
     {
       "title": "Useful Resources",
-      "page": "useful-resources"
+      "url": "useful-resources"
     }
   ]
 }
