@@ -52,7 +52,6 @@ function _createSidebar(data){
     let $sidebarRoot = $('.menu-grow')
 
     for(let page of data.pages){
-        // let page = data.pages[count]
 
         // create header and collapsible menu
         let $menuList = $('<div>')
@@ -66,7 +65,7 @@ function _createSidebar(data){
               <i class="fas fa-chevron-right"></i>
             </span>
         `)
-        
+
         let $name = $('<a>')
             .addClass('name nav-page')
             .html(page.title)
@@ -75,14 +74,15 @@ function _createSidebar(data){
             $name.attr('data-href', page.page)
         }
 
+        let $collapse;
+
         if(page.pages){
             let pages = page.pages
 
-            let $collapse = $('<div>')
+            $collapse = $('<div>')
                 .addClass('collapse-me')
 
             for(let innerPage of pages){
-                // let innerPage = pages[count]
 
                 let $menuList = $('<ul>')
                     .addClass('menu-list')
@@ -97,7 +97,6 @@ function _createSidebar(data){
 
                 if(innerPage.sections){
                     for(let section of innerPage.sections){
-                        // let section = innerPage.sections[count]
                         // console.log(section)
 
                         let $innerInnerSection = $(`
@@ -122,8 +121,7 @@ function _createSidebar(data){
                     .append($menuList)
             }
 
-            $sidebarRoot
-                .append($collapse)
+            // $sidebarRoot
         }
 
         // attach everything so far
@@ -142,5 +140,10 @@ function _createSidebar(data){
 
         $sidebarRoot
             .append($menuList)
+
+        if(page.pages){
+            $sidebarRoot
+                .append($collapse)
+        }
     }
 }
