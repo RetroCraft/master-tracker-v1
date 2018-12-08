@@ -150,7 +150,7 @@ function _createSidebar(data) {
         } else if(innerPage.page) {
           $listLabel
             .addClass('nav-page')
-            .attr('data-href', `${page.url}/${innerPage.page}`)
+            .attr('data-href', `${page.slug}/${innerPage.page}`)
         }
 
         $liWrap
