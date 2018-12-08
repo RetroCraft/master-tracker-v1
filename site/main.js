@@ -25,10 +25,7 @@ $(document).ready(function(){
 })
 
 function grabPage(loc){
-    let foo;
-    $.getJSON('../config/markdown-organizer.json', function(data){
-        foo = data
-    })
+
 }
 
 function loadPage(page){
@@ -43,4 +40,11 @@ function MdToHtml(md){
     return html;
 }
 
-function createSidebar
+function createSidebar(){
+    let foo;
+    $.getJSON('../config/markdown-organizer.json', function(data){
+        foo = data
+    }).then(function(){
+        
+    })
+}
