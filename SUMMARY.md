@@ -27,6 +27,8 @@
   - [Digital](gate-1/digital/README.md)
     - [D.G1: alaska](gate-1/digital/d.g1-alaska.md)
     - [D.Y1: This is NOT Your Story!](gate-1/digital/d.y1-this-is-not-your-story.md)
+- [Beta Gate 1](beta-gate-1/README.md)
+    - [Keys](beta-gate-1/keys.md)
 - [Gate 2](gate-2/README.md)
   - [Digital](gate-2/digital/README.md)
     - [D.G0: artwork update](gate-2/digital/d.g0-gatewayartwork.md)
