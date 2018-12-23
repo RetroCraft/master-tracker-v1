@@ -28,4 +28,5 @@ Here's a few resources to help understand ARGs. If you are new to ARGs or puzzle
 
 * [**dcode**](https://www.dcode.fr/tools-list) - a site with decoders for a whole lot of common ciphers
 * [**GameDetectives Academy**](https://gamedetectives.net/academy) - a bunch of tutorials on finding clues for ARGs
+* [**Pangram Translator**](https://kiki40367.itch.io/gt-arg-pangram-translator) - a theorist made site to decode the symbol alphabet used in the ARG
 
