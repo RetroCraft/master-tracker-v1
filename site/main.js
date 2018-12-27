@@ -26,7 +26,7 @@ $(document).ready(function() {
 })
 
 function loadPage(page) {
-  $.ajax(`../${page}.md`)
+  $.ajax(`./${page}.md`)
     .then(function(data){
       const html = MdToHtml(data);
       $content = $(".content");
@@ -73,7 +73,7 @@ function MdToHtml(md) {
 }
 
 function initSidebar() {
-  $.getJSON('../config/markdown-organizer.json')
+  $.getJSON('./config/markdown-organizer.json')
     .then(function(data) {
       _createSidebar(data)
     })
