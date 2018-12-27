@@ -77,6 +77,9 @@ function initSidebar() {
     .then(function(data) {
       _createSidebar(data)
     })
+    .then(function(){
+      $('[data-href="README"]').click()
+    })
 }
 
 function _createSidebar(data) {
