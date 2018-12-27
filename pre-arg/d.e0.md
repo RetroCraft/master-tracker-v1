@@ -10,7 +10,7 @@ At the timestamp, the website updated. It is now a black background, with the fo
 
 The minutes counter also flashes in a semi-regular fashion, two blips followed by one blip. This could represent Morse `..-` for "IT" or “U”. The blips take place when on frames 1, 3, 7, and 11.
 
-![Countdown gif](.././assets/pre.d.e0.countdown.gif)
+![Countdown gif](./assets/pre.d.e0.countdown.gif)
 
 A frame by frame analysis revealed these numbers, separated into frames:
 
@@ -28,4 +28,4 @@ A frame by frame analysis revealed these numbers, separated into frames:
 
 The following is a compilation of the eleven frames \(left-to-right, top-to-bottom\):
 
-![(.././assets/pre.d.e0.countdown/01.png)![(.././assets/pre.d.e0.countdown/02.png)![(.././assets/pre.d.e0.countdown/03.png)![(.././assets/pre.d.e0.countdown/04.png)![(.././assets/pre.d.e0.countdown/05.png)![(.././assets/pre.d.e0.countdown/06.png)![(.././assets/pre.d.e0.countdown/07.png)![(.././assets/pre.d.e0.countdown/08.png)![(.././assets/pre.d.e0.countdown/09.png)![(.././assets/pre.d.e0.countdown/10.png)![(.././assets/pre.d.e0.countdown/11.png)
+![(./assets/pre.d.e0.countdown/01.png)![(./assets/pre.d.e0.countdown/02.png)![(./assets/pre.d.e0.countdown/03.png)![(./assets/pre.d.e0.countdown/04.png)![(./assets/pre.d.e0.countdown/05.png)![(./assets/pre.d.e0.countdown/06.png)![(./assets/pre.d.e0.countdown/07.png)![(./assets/pre.d.e0.countdown/08.png)![(./assets/pre.d.e0.countdown/09.png)![(./assets/pre.d.e0.countdown/10.png)![(./assets/pre.d.e0.countdown/11.png)

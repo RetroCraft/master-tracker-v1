@@ -23,4 +23,4 @@ which is basically just a Rickroll.
 Also, at approximately 8:02, text flashes across the screen.
 The text was decoded to be ALITY backwards, likely forming the full text REALITY.
 
-![Reality letters](.././assets/1.d.y1.reality.png)
+![Reality letters](./assets/1.d.y1.reality.png)

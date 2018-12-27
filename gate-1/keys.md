@@ -29,7 +29,7 @@ The clip consisted of a video of an R.O.B. controller/robot for the Famicom.
 
 The first section, notated 3A both on the site and on this document, was marked within a spectrogram of the video.
 It revealed a barcode and the text "bit.ly/lucktoheaven" and "the year in coins".
-Referring to [pre:D.E2](../pre-arg//d.e2.md), there are 93¢ in coins, indicating the year 1993.
+Referring to [pre:D.E2](../pre-arg/d.e2.md), there are 93¢ in coins, indicating the year 1993.
 Combining it with the barcode hex which was decoded to "yoshi", the connection to the 1993 Famicom game Yoshi's Safari becomes trivial.
 QED.
 
