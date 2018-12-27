@@ -8,12 +8,12 @@ The book had a picture of Princess Peach in an 8-bit style with the text `GWNWWG
 The cipher was decoded as a Vigenère with the key `TOADSTOOL`.
 The plaintext `NINTENDO LORE WE TOTALLY PLANNED IT` appears to be in reference to the Nintendo theme that has prevailed across the ARG thus far.
 
-![Vigenere cipher with Peach](../../assets/pre.d.y4.peach.png)
+![Vigenere cipher with Peach](.././assets/pre.d.y4.peach.png)
 
 The video shows a webpage \(0:15\) referring to the "Bowsette" trend.
 While they make this reference, bottom left corner shows the following categories:
 
-![Tags](../../assets/pre.d.y4.tags.png)
+![Tags](.././assets/pre.d.y4.tags.png)
 
 - +whydidyoureadallthese
 - +theresnothingherebutwords

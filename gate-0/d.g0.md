@@ -4,7 +4,7 @@ On 11/01, the gateway site updated with new information.
 This included a "Getting Started" page and a leaderboard \([D.G1](d.g1.md)\).
 The "Getting Started" page included links to this document\(!!\) along with the Discord, subreddit, and Twitter.
 
-![Gate 1 with release date](../assets/0.d.g0.gate-1.png)
+![Gate 1 with release date](./assets/0.d.g0.gate-1.png)
 
 The third main page was a "Gates" page which was under construction as of 11/01.
 Although the image in the background was greyed out, analysis of the image revealed that the date 11/24 was embedded into the door of Gate 1.
@@ -14,7 +14,7 @@ The overlaid "Under Construction" [image](https://www.thetheoristgateway.com/ten
 `well done, young theorist. no clues here, but impressive nonetheless. you are indeed prepared. -MP`,
 can be extracted from the image by viewing in any text editor or with the `strings` Unix tool.
 
-![Dialog box with theorist points](../assets/0.d.g0.gate-1.png)
+![Dialog box with theorist points](./assets/0.d.g0.gate-1.png)
 
 The footer contains links to the Game Theory YouTube channel and Creator Ink.
 

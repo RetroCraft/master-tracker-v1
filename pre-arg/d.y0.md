@@ -6,7 +6,7 @@ In the opening seconds of the video, there is a comment with the text
 `Uifsf bsf op Fbtufs Fhht jo ifsf.Hp bxbz.`
 decoded with ROT1 to `There are no Easter Eggs in here. Go away.`
 
-![ROT1 cipher](../../assets/pre.d.y0.rot-1.png)
+![ROT1 cipher](.././assets/pre.d.y0.rot-1.png)
 
 A cipher was also discovered in the video, `23 5 - 23 15 21 12 4 - 14 15 20 - 13 1 11 5 - 9 20 - 0 8 1 20 - 5 1 19 25`, which decoded to `we would not make it that easy` with an A1Z26 cypher.
 

@@ -3,7 +3,7 @@
 On 11/21, photos of a card bundled with merch began to circulate.
 The card contained BASIC-esque code on one side and a message from MatPat on the other.
 
-![](../../assets/1.r.m0.card.png)
+![](.././assets/1.r.m0.card.png)
 
 The side with BASIC code, identified by the multiples of ten used as line numbers, explains very concisely the rules of the ARG.
 In no case should anything cost money, the top 5% of winners get a physical prize, and progress is tracked using Theorist Points.

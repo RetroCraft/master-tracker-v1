@@ -2,7 +2,6 @@ $(document).ready(function() {
 
   // setup nav
   $('.nav-page').each(function() {
-    console.log(`cleaned ${$(this).data('page')}!`)
     $(this).data('page', $(this).data('page'))
     $(this).removeAttr('data-page')
   })

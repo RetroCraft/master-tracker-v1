@@ -4,4 +4,4 @@ One of the merch shirts uses the Futurama "Alienese" language to encode "it's AR
 This likely has zero bearing on the ARG and is simply a fun easter egg.
 It is recorded here for reference purposes.
 
-![Shirt](../../assets/pre.r.m0.shirt.png)
+![Shirt](.././assets/pre.r.m0.shirt.png)

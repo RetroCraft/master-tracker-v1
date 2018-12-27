@@ -9,7 +9,7 @@ A blurred picture of a Famicom was provided, subsequently easily and quickly ide
 The concept of "Famicom" as a clue first appeared in [pre:D.E1](../pre-arg/d.e1.md) alongside the Japanese release date of 07/15/1983.
 Therefore, the key was Famicom.
 
-![Blurred Famicom gif](../assets/1.k.1.famicom.gif)
+![Blurred Famicom gif](./assets/1.k.1.famicom.gif)
 
 ## 2: KOOPA TROOPA
 
@@ -18,7 +18,7 @@ This hearkened back to [pre:D.Y3](../pre-arg/d.y3.md), where the text "the one r
 This clue specifically refers to how the provided Link sprite replaced a Koopa Troopa in the Game Theory intro in pre:D.Y3.
 Therefore, the key was Koopa Troopa.
 
-![Link trailhead](../assets/1.k.2.link.png)
+![Link trailhead](./assets/1.k.2.link.png)
 
 ## 3: R.O.B.
 
@@ -33,7 +33,7 @@ Referring to [pre:D.E2](../pre-arg//d.e2.md), there are 93¢ in coins, indicatin
 Combining it with the barcode hex which was decoded to "yoshi", the connection to the 1993 Famicom game Yoshi's Safari becomes trivial.
 QED.
 
-![3A spectrogram](../assets/1.k.3a.spectrogram.png)
+![3A spectrogram](./assets/1.k.3a.spectrogram.png)
 
 ### 3B: OVERWORLD
 
@@ -42,7 +42,7 @@ The 3B spectrogram was accompanied by a Twitter logo, and an image was tweeted o
 The image contained a rebus for "key three bee" \(Key 3B\) and indicated the audio must be played at ¼ speed and in reverse.
 The resulting audio was recognized as the "Overworld" theme from The Legend of Zelda.
 
-![3B rebus puzzle](../assets/1.k.3b.rebus.png)
+![3B rebus puzzle](./assets/1.k.3b.rebus.png)
 
 ### 3C: OOHHYAYAMP!
 
@@ -53,7 +53,7 @@ The letters decoded to "Seek two brothers and the bot / Unhex the purple perpetr
 On another frame where two brothers are playing a game with R.O.B., the text `http://www.imgur.com/4469384a784d67` is visible.
 "Unhexing" \(ASCII hex decoding\) the highlighted purple text gives "<http://www.imgur.com/Di8JxMg>", an image clearly indicating Key 3C.
 
-![3C hidden text](../assets/1.k.3c.countdown.png)
+![3C hidden text](./assets/1.k.3c.countdown.png)
 
 Within this image, two sets of glyphs can be found.
 By changing brightness, "the cipher is hidden".
@@ -62,4 +62,4 @@ After changing the hue, another hex code appears, pointing to [this GIF](https:/
 The "Keep Calm and Carry On" themed poster in the background hints at the Konami code, a famous cheat code from old Konami games \(↑ ↑ ↓ ↓ ← → ← → B A Start\).
 By translating the keystrokes to characters using the code on the Duck Hunt-themed screen, the resulting key is "OOHHYAYAMP!".
 
-![Konami code on TV](../assets/1.k.3c.konami.gif)
+![Konami code on TV](./assets/1.k.3c.konami.gif)

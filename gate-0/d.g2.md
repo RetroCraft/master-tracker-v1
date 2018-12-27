@@ -1,6 +1,6 @@
 # D.G2: gates
 
-![All gates](../assets/0.d.g2.gates.png)
+![All gates](./assets/0.d.g2.gates.png)
 
 The 11/12 update also brought a new graphic for the seven gates.
 These graphics replace the "Under Construction" image and the blurred gates from the original site.
