@@ -15,7 +15,7 @@ This doc is divided **by gate** \(plus pre-ARG and gateway\), with four subsecti
 
   Probably don't bother, 99% will be a waste of time.
 
-* _**Closed leads**_ are **solved** leads that **should not be repeated** as that would be a waste of time. Solved gates are also marked as **"archived"**, which should be treated the same. _Please note that the instructions for accessing the ARG channels is not within an archived gate._
+* _**Closed leads**_ are **solved** leads that **should not be repeated** as that would be a waste of time. Solved gates are also marked as **"archived"**, which should be treated the same.
 * _**Hoaxes**_ are confirmed to either be fake or unrelated.
 
 **Leads are divided into their origins**, which give the lead a zero-indexed **ID number**, which is also used for that lead's URL/filename. For example, **D.Y1** for a Digital/YouTube lead. ID numbers are prefixed with their gate if being referenced from another gate, so as not to confuse two D.Y0's, etc.
