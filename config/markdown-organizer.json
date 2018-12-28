@@ -142,6 +142,17 @@
       ]
     },
     {
+      "title": "Beta Gate 1",
+      "slug": "beta-gate-1
+      "url": "README",
+      "pages": [
+        {
+          "title": "Keys",
+          "page": "keys"
+        }
+      ]
+    },
+    {
       "title": "Useful Resources",
       "url": "useful-resources"
     }
