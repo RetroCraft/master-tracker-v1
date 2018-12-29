@@ -10,7 +10,6 @@ Line 70 is skipped, and lines 80 and 90 form an infinite loop, repeating the ins
 
 The reverse side is a message signed by MatPat \(with a semicolon in place of an en dash\). There are five capitalized letters, in order "WATCH".
 
-Embossed into the background is text encoded using the system from [pre:D.Y3](../../pre-arg/digital/d.y3-youareprepared.md). This text states "the deadly sins / the dwarves of snow white / the deathly hallows" seemingly indicating the number 777 \(seven deadly sins, seven dwarves, seventh Harry Potter book\).
+Embossed into the background is text encoded using the system from [pre:D.Y3](../../pre-arg/digital/d.y3-youareprepared.md). This text states "the deadly sins / the dwarves of snow white / the deathly hallows" seemingly indicating the number 777 \(seven deadly sins, seven dwarves, seventh Harry Potter book\). Furthermore, these all start with D, indicating 7D or seventy, the line of code missing on the other side of the card.
 
 The most likely purpose of this clue was for MatPat to wish all prospective ARG solvers good luck.
-
