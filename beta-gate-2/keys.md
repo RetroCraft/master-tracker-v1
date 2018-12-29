@@ -5,12 +5,12 @@ On 12/28, the second (out of three) beta gate opened which displayed 3 keys to b
 ### **1: no crash ftw**
 
 For this first key, a picture was provided that said "watch this video:" and then had a YouTube video link. Theorists found that they did not have to watch the video, but instead turn up the exposure to reveal a message around the corners that had a message that stated you did not have to actually watch the video. At the bottom left corner, it stated that your password is "NO CRASH FTW".
-![NO CRASH Clue](./assets/b1.k.1.png)
+![NO CRASH Clue](https://www.thetheoristgateway.com/static/clues/0781fa1e-a275-5b67-87ba-03c2c711b93d/2/BetaGate2_Key1_Clue_HyKwIEkVVxk4AaIsCtyFIpe9mNCuaV7TiJaX3ud1.png)
 
 ### **2: marioriomaoooo**
 
 For the second key, TheTheoristGateway took you back to the "youareprepared" video and gave you a legend to decipher the blinking lights at the beginning of the video. Theorists quickly decyphered this and found this to be the answer when going frame by frame using the legend.
-![youareprepared legend](./assets/b1.k.2.png)
+![youareprepared legend](https://www.thetheoristgateway.com/static/clues/0781fa1e-a275-5b67-87ba-03c2c711b93d/2/BetaGate2_Key2_Clue_VhP2VtrY18hcTvfOFu88GSSYcvOxJOFhqzgmkpKi.png)
 
 ### **3: 756e627265616b61626c65**
 
@@ -31,6 +31,6 @@ These patterns resulted in you getting MHVYZTG30888, but plugging it in did not 
 
 After going to the website provided (https://www.unturnnostone.com/mhvyztg30888.gif), you got a lot more glyphs, but this time it stated that the password was "unbreakable". This did not fit into the key input, but translating this to HEX, you found that it led to "756e627265616b61626c65" which fit into the key input successfully and let theorists pass the finish line.
 
-![unturnnostone](./assets/mhvyztg30888.png)
+![unturnnostone](https://www.youtube.com/embed/khob-OhfhhI?rel=0&modestbranding=1)
 
 *That was a lot for BETA GATE 2*
