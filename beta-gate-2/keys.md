@@ -16,6 +16,8 @@ For the second key, TheTheoristGateway took you back to the "youareprepared" vid
 
 This one stumped a lot of people. Theorists were orignally given a video that showed the text "leave. no. stone. unturned." and then flashing green lines under letters. Theorists found that this was showing a link and led to unturnnostone.com which showed a link with question marks as an extension. Clicking on it brought you to a page with a bunch of stones and then the question marks. Some theorists found that this was to show a pattern.
 
+![unturnnostone](./assets/b1.k.3.png)
+
 The Red Questionmark Pattern: Add 2 starting from A each time until you get to the "?"
 The Green Questionmark Pattern: Subtract 3 starting from Z each time until you get to the "?"
 The Blue Questionmark Pattern: A +1 +2 +3 +4.. and so on until you get to the "?"
@@ -28,4 +30,7 @@ These patterns resulted in you getting MHVYZTG30888, but plugging it in did not 
 (Sidenote: Normally, websites that are run on WINDOWS have case INsensitive links, but if nothing else is set on other hosts, it will have to be case sensitive. Confirmation from CreatorINK is still awaiting on if this was on purpose)
 
 After going to the website provided (https://www.unturnnostone.com/mhvyztg30888.gif), you got a lot more glyphs, but this time it stated that the password was "unbreakable". This did not fit into the key input, but translating this to HEX, you found that it led to "756e627265616b61626c65" which fit into the key input successfully and let theorists pass the finish line.
+
+![unturnnostone](./assets/mhvyztg30888.png)
+
 *That was a lot for BETA GATE 2*
