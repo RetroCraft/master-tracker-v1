@@ -40,12 +40,12 @@ Stuck eh? Here's a hint: Addition is all you need.
 
 Using this, theorists were able to manipulate each row of stones in order to obtain a new string of text.
 
-**The first stone:** Translating the stone to text gave "a c e g i k t". A Caesar cipher was then used in order to "add two", transforming the text into "c e g i k m". It was clear here that most of the letters were repeated and could be discarded except for "m".<br>
+**The first stone:** Translating the stone to text gave "a c e g i k". A Caesar cipher was then used in order to "add two", transforming the text into "c e g i k m". It was clear here that most of the letters were repeated and could be discarded except for "m".<br>
 **The second stone:** Stone translated into "z w t q n k". Similar to the previous stone, a Caesar cipher was used but this time rotating the letters by -3, transforming the text into "w t q n k h". Once again, the pattern could be seen and "h" was left over. <br>
-**The third stone:** Stone translated was "a b d g k p". Once again using a Caesar cipher, but instead this time incrementing by 1 for each following letter, transformed the text into "b d g k p u". "u" was the only letter left over after discarding the repeats. <br>
+**The third stone:** Stone translated was "a b d g k p". Once again using a Caesar cipher, but instead this time incrementing by 1 for each following letter, transformed the text into "b d g k p v". "v" was the only letter left over after discarding the repeats. <br>
 **The fourth stone:** Stones translated into "ab ef ij mn qr uv". Following the guide to "skip two letters," the cipher for this stone was found to be another Caesar cipher with a +4 rotation. "ef ij mn qr uv yz" was the new result, leaving only "yz" after deleting the repeats.<br>
 **The fifth stone:** Stone translated into "za yb xc wd ve uf". Yest another Caesar cipher was used, but this time shifting the first letter of each pair down 1 and the second letter up 1. This yielded "yb xc wd ve uf tg" and the result of "tg" after deleting repeated pairs.<br>
-**The sixth stone:** Stone translated to "77 143 198 242 275 297". One could arrive at the pattern by subtracting each number by the one before it, or they could simply add 77+66+55+44+33+22+11 like the guide said, which returned 308.<br>
+**The sixth stone:** Stone translated to "77 143 198 242 275 297". One could arrive at the pattern by subtracting each number by the one before it, or they could simply add 77+66+55+44+33+22+11 like the guide said, which returned "308".<br>
 **The seventh stone:** Stone translated to "34 41 46 56 67 80". The pattern here was found by adding the two individual digits in each pair together and then adding it to the pair value itself. The result of doing so was "41 46 56 67 80 88" and upon deleting repeats was left with just "88".<br>
 
 Combining these new strings together in the order specified on the original page of the website created a new string of "MHVYZTG30888", but plugging it in did not work. Theorists THEN found that it had to be lowercase to get to the correct place.
