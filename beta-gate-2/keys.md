@@ -18,20 +18,20 @@ For the second key, TheTheoristGateway took you back to the "youareprepared" vid
 
 ### **3: 756e627265616b61626c65**
 
-This one stumped a lot of people. Theorists were orignally given a [video](https://www.youtube.com/embed/khob-OhfhhI?rel=0&modestbranding=1) that showed the text "leave. no. stone. unturned." and then flashing green lines under letters. Theorists found that, by following the order of letters being underlined, "unturnnostone" was spelled out. Upon examining the spectrogram of the video's audio, ".com" was located, leading theorists to visit <https://www.unturnnostone.com/>. There, theorists were greeted with a link that had color coded question marks as an extension. Clicking on it brought you to a [page](https://www.unturnnostone.com/themissingtones.html) with 7 rows of stones covered in alienese, each having a colored question mark on their right. Under all the rows, an 8th image was faintly visible hinting for it to be opened in a text editor. When opened, the following paragraph could be seen:
+This one stumped a lot of people. Theorists were orignally given a [video](https://www.youtube.com/embed/khob-OhfhhI?rel=0&modestbranding=1) that showed the text "leave. no. stone. unturned." and then flashing green lines under letters. Theorists found that, by following the order of letters being underlined, "unturnnostone" was spelled out. Upon examining the spectrogram of the video's audio, ".com" was located, leading theorists to visit <https://www.unturnnostone.com/>. There, theorists were greeted with a link that had color coded question marks as an extension. Clicking on it brought you to a [page](https://www.unturnnostone.com/themissingtones.html) with 7 rows of alienese stones, each having a colored question mark on their right. Under all the rows, an 8th image was faintly visible hinting for it to be opened in a text editor. When opened, the following paragraph could be seen:
 
 ```
-thefirststone:<br>
-Add two starting from A<br>
-thesecondstone:<br>
-Subtract 3 starting from Z<br>
-thethirdstone:<br>
-A +1  +2  +3  +4  +5  +6<br>
-thefourthstone:<br>
-Skip two letters starting from AB<br>
-thefifthstone:<br>
-Start with ZA. Subtract a letter and add a letter<br> respectively in pairs.<br>
-thesixthstone:<br>
+thefirststone:
+Add two starting from A
+thesecondstone:
+Subtract 3 starting from Z
+thethirdstone:
+A +1  +2  +3  +4  +5  +6
+thefourthstone:
+Skip two letters starting from AB
+thefifthstone:
+Start with ZA. Subtract a letter and add a letter<br> respectively in pairs.
+thesixthstone:
 77+66+55+44+33+22+11
 
 the seventh stone.
@@ -40,7 +40,7 @@ Stuck eh? Here's a hint: Addition is all you need.
 
 Using this, theorists were able to manipulate each row of stones in order to obtain a new string of text.
 
-**The first stone:** Translating the stone to text gave "a c e g i k". A Caesar cipher was then used in order to "add two", transforming the text into "c e g i k m". It was clear here that most of the letters were repeated and could be discarded except for "m".<br>
+**The first stone:** Translating this stone to text gave "a c e g i k". A Caesar cipher was then used in order to "add two" as the paragraph above said, transforming the text into "c e g i k m". It was clear here that most of the letters were repeated and could be discarded except for "m".<br>
 **The second stone:** Stone translated into "z w t q n k". Similar to the previous stone, a Caesar cipher was used but this time rotating the letters by -3, transforming the text into "w t q n k h". Once again, the pattern could be seen and "h" was left over. <br>
 **The third stone:** Stone translated was "a b d g k p". Once again using a Caesar cipher, but instead this time incrementing by 1 for each following letter, transformed the text into "b d g k p v". "v" was the only letter left over after discarding the repeats. <br>
 **The fourth stone:** Stones translated into "ab ef ij mn qr uv". Following the guide to "skip two letters," the cipher for this stone was found to be another Caesar cipher with a +4 rotation. "ef ij mn qr uv yz" was the new result, leaving only "yz" after deleting the repeats.<br>
